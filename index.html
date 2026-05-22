@@ -323,6 +323,7 @@
     content: '';
     position: absolute; inset: 0;
     background: radial-gradient(ellipse 60% 60% at 50% 50%, rgba(244,162,97,0.06) 0%, transparent 70%);
+    pointer-events: none;
   }
   .cta-section .section-title { font-size: clamp(2.5rem, 6vw, 4.5rem); }
   .cta-sub { font-size: 1.05rem; color: var(--mid); margin-bottom: 2.5rem; max-width: 480px; margin-left: auto; margin-right: auto; line-height: 1.7; }
@@ -352,8 +353,6 @@
   }
   .footer-logo span { color: var(--accent); }
   .footer-note { font-size: 0.75rem; color: var(--mid); }
-  .footer-note a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(244,162,97,0.3); }
-  .footer-note a:hover { border-color: var(--accent); }
 
   /* ── ANIMATIONS ── */
   @keyframes fadeUp {
@@ -544,7 +543,7 @@
 <!-- FOOTER -->
 <footer>
   <a href="#" class="footer-logo">DRIVEN <span>SEARCH MEDIA</span></a>
-  <span class="footer-note">© 2026 Driven Search Media · Highland Park, IL · <a href="mailto:danny@drivensearchmedia.com">danny@drivensearchmedia.com</a></span>
+  <span class="footer-note">© 2026 Driven Search Media · Highland Park, IL · drivensearchmedia.com</span>
 </footer>
 
 <script>
